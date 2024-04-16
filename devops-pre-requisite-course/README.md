@@ -8,18 +8,8 @@ To view this course, click the following [link](https://kodekloud.com/courses/de
 
 ## Contents
 
-1. Introduction
-2. Lab Setup
-3. Linux Basics
-4. Networking Basics
-5. Application Basics
-6. Source Control Management (SCM)
-7. Web Server
-8. Database Basics
-9. Security
-10. General Pre-Requisites
-11. 2 Tier Application
-12. Conclusion
+1. Networking Basics
+2. Application Basics
 
 ### Networking Basics
 
@@ -41,3 +31,9 @@ For app01: `sudo ip route add 172.16.239.0/24 via 172.16.238.10` \
 For app02: `sudo ip route add 172.16.239.0/24 via 172.16.238.10` \
 For app03: `sudo ip route add 172.16.238.0/24 via 172.16.239.10` \
 For app04: `sudo ip route add 172.16.238.0/24 via 172.16.239.10`
+
+### Application Basics
+
+To download `Java 20`, you can use the following command: `sudo curl https://download.java.net/java/GA/jdk20/bdc68b4b9cbc4ebcb30745c85038d91d/36/GPL/openjdk-20_linux-x64_bin.tar.gz -o /opt/openjdk-20_linux-x64_bin.tar.gz`. \
+Then you can just uncompress the file using the following command: `sudo tar -xf /opt/openjdk-20_linux-x64_bin.tar.gz -C /opt`.\
+You can append the dir to path varible using the following command: `export PATH=$PATH:/opt/jdk-20/bin`
